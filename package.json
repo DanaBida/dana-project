@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/server/server.ts",
-    "test": "ts-mocha src/tests/*.test.ts --timeout 18000 --exit "
+    "start": "nodemon src/server/server.js",
+    "test": "mocha src/tests/*.test.ts --timeout 18000 --exit "
   },
   "repository": {
     "type": "git",
@@ -21,11 +21,10 @@
     "@types/jquery": "^3.5.3",
     "@types/node": "^14.14.5",
     "express": "^4.17.1",
-    "socket.io": "^2.3.0",
-    "tsc": "^1.20150623.0"
+    "socket.io": "^2.3.0"
   },
   "devDependencies": {
-    "mocha-ts": "0.0.0",
+    "mocha": "^8.2.0",
     "nodemon": "^2.0.6"
   }
 }
