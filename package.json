@@ -1,0 +1,19 @@
+{
+  "name": "dana",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server/server.ts",
+    "test": "ts-mocha src/tests/*.test.ts --timeout 18000 --exit "
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DanaBida/dana-project.git"
+  },
+  "author": "Dana Bida",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "12.12.7"
+  }
+}
